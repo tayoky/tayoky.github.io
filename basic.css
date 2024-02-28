@@ -6,4 +6,9 @@ body{
 
 pre{
     margin: auto;
+    font-family: sans-serif;
+}
+
+h1{
+    color: darkgreen;
 }
