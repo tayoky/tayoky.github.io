@@ -7,7 +7,14 @@
         
     </body>
     <script>
+        document.cookie[bool] = true;
         const link = window.location.search ;
+        alert (link);
+        if(document.cookie[bool]){
+            document.cookie[hist][document.cookie[hist].length] = link;            
+        }
+        alert(document.cookie);
         window.location = link;
+        
     </script>
 </html>
