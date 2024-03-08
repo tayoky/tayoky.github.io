@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tayoky-NouPube</title>
+    </head>
+    <body>
+        <input type="text" width="80%" id="idtext"><input type="button" value="Play" onclick="Play()"><br>
+        <iframe id="ytplayer" type="text/html" width="720" height="405"
+        src="https://www.youtube.com/embed/"
+        frameborder="0" allowfullscreen>
+    </body>
+    <script type="text/javascript">
+        const videoId ="no";
+        const player = document.getElementById("ytplayer");
+        const search = document.getElementById("idtext");
+        function Play() {
+            videoId =  search.getAttribute("value");
+            videoId = videoId.substring(33,videoId.length);
+            alert("load : " + videoId);
+            player.setAttribute("src","https://www.youtube.com/embed/"+videoId)
+        }
+    </script>
+</html>
