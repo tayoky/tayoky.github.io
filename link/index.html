@@ -7,14 +7,14 @@
         
     </body>
     <script>
-        document.cookie[bool] = true;
-        const link = window.location.search ;
-        alert (link);
-        if(document.cookie[bool]){
-            document.cookie[hist][document.cookie[hist].length] = link;            
+        const links = []
+        links['Geo-Rep'] = 'https://foxsoftwebsiteofficial.on.drv.tw/GeoStrategic/ReportBug/';
+        const urlParams = new URLSearchParams(window.location.search);
+        const link = urlParams.get('link');
+        if(links[link] =! null){
+            window.location = links[link];
         }
-        alert(document.cookie);
-        window.location = link;
+        
         
     </script>
 </html>
