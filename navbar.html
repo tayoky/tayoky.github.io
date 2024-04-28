@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>navBar don't index</title>
+    </head>
+    <style>
+        button{
+            margin: 0px;
+            border:  0px;
+            border-radius: 0px;
+            height:  100%;
+            background-color: green;
+            color: white;
+            width: 25%;
+        }
+
+        button:hover{
+            background-color: #00a200;
+        }
+    </style>
+    <body style="height: 100vh;background-color: green; margin: 0px; padding: 0px;width: auto;">
+        <button onclick="Home()">home</button><button>projects</button><button>links</button><button onclick="About()">about</button>
+        
+    </body>
+    <script>
+        function About(){
+            window.open("https://tayoky.github.io/apropos","_top")
+        }
+
+        function Home(){
+            window.open("https://tayoky.github.io/","_top")
+        }
+    </script>
+</html>
