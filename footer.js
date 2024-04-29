@@ -1,0 +1,1 @@
+document.write('<footer ><iframe src="../footer.html" style="height: 100%; box-shadow : 0px 0px 0px ;"></iframe></footer>')
