@@ -1,0 +1,25 @@
+title: "tayoky's website"
+
+author :
+  name : "tayoky"
+  email : "tayoky4848@gmail.com"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+#use minima theme
+remote_theme: "jekyll/minima@f1a2af4"
+
+minima:
+  skin: auto
+  
+  nav_pages:
+    - about
+    - project
+
+#social media link
+  social_links:
+    - title: "tayoky on github"
+      icon: github
+      url: "https://github.com/tayoky"
