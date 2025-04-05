@@ -9,13 +9,13 @@ plugins:
   - jekyll-seo-tag
 
 #use minima theme
-remote_theme: "jekyll/minima@f1a2af4"
+remote_theme: "jekyll/minima@e7b6705"
 
 minima:
   skin: auto
   
   nav_pages:
-    - about
+    - about.md
     - project
 
 #social media link
