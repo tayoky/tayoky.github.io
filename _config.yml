@@ -9,7 +9,7 @@ plugins:
   - jekyll-seo-tag
 
 #use minima theme
-remote_theme: "jekyll/minima@e7b6705"
+remote_theme: "jekyll/minima@0f2a803"
 
 minima:
   skin: auto
